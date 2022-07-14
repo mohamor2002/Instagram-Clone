@@ -1,0 +1,74 @@
+#navbar {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    padding: 20px;
+    height: 30px;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+    transition: top 0.5s;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+
+}
+.Nav-search{
+    padding: 0 5px;
+    height: 40px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgb(233, 233, 233);
+}
+input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+input::placeholder{
+    color: darkgray;
+    font-size: small;
+}
+
+.sicon{
+    color:darkgray;
+}
+.Message-logo,.Home-logo,.Add-logo,.Explore-logo,.Notif-logo,.Navbar-account{
+    margin: 0 5px;
+}
+
+.Message-logo:hover,.Home-logo:hover,.Add-logo:hover,.Explore-logo:hover,.Notif-logo:hover,.Navbar-account{
+    color: rgb(103, 103, 103);
+    cursor: pointer;
+}
+.Nav-logo{
+    cursor:pointer ;
+}
+a{
+    color:black;
+}
+.sidebar{
+    display: flex;
+    margin-right: 50px;
+}
+.Navbar-account{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+    padding: 2px;
+    border-radius: 100%;
+    border: solid rgb(255, 20, 184);
+    justify-content: center;
+}
+.Navbar-pp{
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+    border-radius: 50%;
+    vertical-align: middle ;
+}

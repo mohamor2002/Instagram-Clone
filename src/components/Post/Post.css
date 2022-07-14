@@ -1,0 +1,92 @@
+.Post-container {
+    margin-left: 100px ;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    max-width: 613px;
+    background: rgba(255, 255, 255, 0.36);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(17.5px);
+    -webkit-backdrop-filter: blur(17.5px);
+    border: 1px solid rgba(255, 255, 255, 0.43);
+}
+
+
+.Post-user{
+    display: flex;
+    align-items: center;
+}
+.Post-pic{
+    max-width:inherit;
+    height: auto;
+}
+.Post-story{
+    height: 40px;
+    width: 40px;
+    padding: 2px;
+    border-radius: 100%;
+    border: solid rgb(255, 20, 184);
+    margin: 20px;
+    margin-right: 10px;
+}
+
+.Profile-pic{
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+    border-radius: 50%;
+    vertical-align: middle ;
+}
+
+.Username{
+    font-size: small;
+    font-weight: 500;
+    padding: 1px 4px;
+    border-radius: 5px;
+    
+}
+.Username:hover , .Profile-pic:hover
+{
+    cursor: pointer;
+    background-color: rgb(219, 219, 219);
+}
+.Post-caption{
+    font-size: smaller;
+    margin : 20px 20px;
+}
+.Post-react{
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    margin: 20px;
+}
+
+.Post-likes {
+    font-size: small;
+    margin-left: 30px;
+}
+.Post-likes b{
+    cursor: pointer;
+}
+
+.icon{
+    size: large;
+    margin: 10px;
+    border-radius: 20%;
+}
+.icon:hover{
+    color: rgb(141, 141, 141);
+    cursor: pointer;
+
+}
+.like-button:active{
+    font-size: 30px;
+}
+
+.like-account:hover{    
+    text-decoration: underline;
+}
+.liked{
+    color: red;
+}

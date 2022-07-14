@@ -1,0 +1,17 @@
+#rightbar{
+    z-index: 1000;
+    position: fixed;
+    top: 100px ;
+    right: 50px;
+    transition: 0.5s;
+}
+
+@media (max-width:1250px)
+{
+    #rightbar{
+        display: none;
+    }
+    .Post-container , .storybar{
+        margin: 20px auto;
+    }
+}
