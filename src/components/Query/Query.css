@@ -18,9 +18,9 @@
 @media (max-width:900px)
 {
     #navbar{
-        padding: 20px;
+        padding: 5vw;
         height: 20px;
-        max-width: 96vw;
+        max-width: 90vw;
         align-items: center;
         justify-content: left;
     }
@@ -54,11 +54,11 @@
         display: flex;
         position: fixed;
         height: 20px;
-        width: 100%;
+        padding: 5vw;
+        width: 90vw;
         align-items: center;
         justify-content: space-evenly;
         bottom: 0;
-        padding: 20px;
         background: linear-gradient(145deg, #e6e6e6, #ffffff);
     }
     .Post-pic{
