@@ -7,9 +7,8 @@
     display: flex;
     margin-left: 100px;
     margin-bottom: 20px;
-    padding: 20px;
-    max-width: fit-content;
-    max-width: 573px;
+    padding: 2vw;
+    width: 46vw;
     border-radius: 16px;
     background: #ffffff;
     overflow-x: scroll;

@@ -3,8 +3,8 @@
     z-index: 1000;
     top: 0;
     padding: 20px;
-    height: 30px;
-    width: 98%;
+    max-height: 30px;
+    width: 98vw;
     display: flex;
     align-items: center;
     justify-content:space-around ;
@@ -15,7 +15,7 @@
 .Nav-search{
     padding: 0 5px;
     height: 40px;
-    width: 250px;
+    max-width: 250px;
     display: flex;
     align-items: center;
     border-radius: 5px;
@@ -51,6 +51,8 @@ a{
     color:black;
 }
 .sidebar{
+    max-width: auto;
+    font-size: small;
     display: flex;
     margin-right: 50px;
 }

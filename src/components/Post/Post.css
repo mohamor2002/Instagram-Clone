@@ -2,7 +2,7 @@
     margin-left: 100px ;
     margin-bottom: 20px;
     padding-bottom: 20px;
-    max-width: 613px;
+    width: 50vw;
     background: rgba(255, 255, 255, 0.36);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -17,7 +17,7 @@
     align-items: center;
 }
 .Post-pic{
-    max-width:inherit;
+    width:inherit;
     height: auto;
 }
 .Post-story{
