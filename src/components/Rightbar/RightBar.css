@@ -6,27 +6,3 @@
     transition: 0.5s;
 }
 
-@media (max-width:1220px)
-{
-    #rightbar{
-        display: none;
-    }
-    .Post-container , .storybar{
-        max-width: 100%;
-        margin: 20px auto;
-    }
-    .Post-react{
-        font-size: small;
-    }
-
-}
-@media (orientation:portrait)
-{
-    .Post-container , .storybar{
-        width: 100vw;
-        height: auto;
-    }
-    .sidebar {
-        display: none;
-    }
-}

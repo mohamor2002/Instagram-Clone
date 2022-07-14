@@ -4,6 +4,8 @@ import Navbar from './components/Navbar/Navbar.jsx'
 import ScrollBar from './components/Navbar/ScrollBar'
 import Storybar from './components/Storybar/Storybar'
 import RightBar from './components/Rightbar/RightBar';
+import Downbar from './components/Downbar/Downbar';
+import Query from './components/Query/Query';
 
 function App() {
 
@@ -23,7 +25,9 @@ function App() {
       <Post pid="post5" Username='Bnadem w5las' Caption='Lorem ipsum dolor, sit amet consectetur adipisicing elit.'>                     
       </Post>
       <RightBar></RightBar>
+      <Downbar></Downbar>
       <ScrollBar></ScrollBar>
+      <Query></Query>
     </div>
   )
    

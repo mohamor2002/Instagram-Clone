@@ -1,27 +1,14 @@
-import './Navbar.css'
+import './Downbar.css'
 import Pic from './../Post/pics/herman_melville_1870._oil_painting_by_joseph_oriel_eaton-800pix.jpg'
-import InstagramIcon from '@mui/icons-material/Instagram';
-import SearchIcon from '@mui/icons-material/Search';
 import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
 import SendOutlinedIcon from '@mui/icons-material/SendOutlined';
 import AddCircleOutlineOutlinedIcon from '@mui/icons-material/AddCircleOutlineOutlined';
 import ExploreOutlinedIcon from '@mui/icons-material/ExploreOutlined';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 
-
-
-function Navbar(props) {
-    
+function Downbar(props) {
     return (
-        <nav id='navbar' className='scroll'>
-            <a href="./index.html">
-                <InstagramIcon className='Nav-logo' fontSize='large'></InstagramIcon>
-            </a>
-            <div className='Nav-search'>
-                <SearchIcon className='sicon'></SearchIcon>         
-                <input type="text"  placeholder='Search'/>   
-            </div>
-            <div className='sidebar'>
+        <div className='downbar'>
                 <HomeRoundedIcon className='Home-logo' ></HomeRoundedIcon>
                 <SendOutlinedIcon className='Message-logo' ></SendOutlinedIcon>
                 <AddCircleOutlineOutlinedIcon className='Add-logo' ></AddCircleOutlineOutlinedIcon>
@@ -32,12 +19,7 @@ function Navbar(props) {
                 </div>
 
             </div>
-            
-            
-
-        </nav>
-
     );
 }
 
-export default Navbar;
+export default Downbar;

@@ -1,0 +1,53 @@
+@media (max-width:1220px)
+{
+    #rightbar{
+        display: none;
+    }
+    .Post-container , .storybar{
+        max-width: 100%;
+        margin: 20px auto;
+    }
+    .Post-react{
+        font-size: small;
+    }
+
+}
+@media (orientation:portrait)
+{
+  #navbar{
+    padding: 5vw;
+    width: 90vw;
+    justify-content: space-around;
+  }
+  .Nav-search{
+    width: 50vw;
+    height: 30px;
+  }
+    .Post-container {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100vw;
+        height: auto;
+    }
+    .storybar
+    {
+        margin-left:0 ;
+        margin-right:0;
+        width: 96vw;
+    }
+    .sidebar {
+        display: none;
+    }
+   
+    .downbar{
+        display: flex;
+        position: fixed;
+        width: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+        bottom: 0;
+        padding: 10px;
+        background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    }
+   
+}
