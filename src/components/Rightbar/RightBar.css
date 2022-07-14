@@ -23,7 +23,10 @@
 @media (orientation:portrait)
 {
     .Post-container , .storybar{
-        width: 98vw;
-        margin: 0 auto;
+        width: 100vw;
+        height: auto;
+    }
+    .sidebar {
+        display: none;
     }
 }
