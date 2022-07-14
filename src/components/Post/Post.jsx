@@ -33,11 +33,11 @@ export default function Post(props) {
                 </div>
                 <img id = {props.pid} className='Post-pic' src={Pic} alt="Post pic" />
                 <div className="Post-react">
-                    <div className='icon like-button' onClick={likeHandle}>
-                        {!likeButton?<FavoriteBorderIcon fontSize='large'> </FavoriteBorderIcon>:<FavoriteIcon className='liked' fontSize='large'> </FavoriteIcon>}
+                    <div className='like-button' onClick={likeHandle}>
+                        {!likeButton?<FavoriteBorderIcon className='icon'> </FavoriteBorderIcon>:<FavoriteIcon className='icon liked' > </FavoriteIcon>}
                     </div>
-                    <ChatBubbleOutlineIcon fontSize='large' className='icon'></ChatBubbleOutlineIcon>
-                    <SendIcon fontSize='large' className='icon'></SendIcon>
+                    <ChatBubbleOutlineIcon  className='icon'></ChatBubbleOutlineIcon>
+                    <SendIcon  className='icon'></SendIcon>
                 </div>
                 <p className='Post-likes'> <b className='like-account'>Cristiano</b> and <b>70 others </b>liked it </p>
 

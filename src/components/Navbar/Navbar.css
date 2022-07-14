@@ -45,9 +45,11 @@ input::placeholder{
     cursor: pointer;
 }
 .Nav-logo{
+    font-size: 30px !important;
     cursor:pointer ;
 }
 a{
+
     color:black;
 }
 .sidebar{

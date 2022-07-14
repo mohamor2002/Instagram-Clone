@@ -15,7 +15,7 @@ function Navbar(props) {
     return (
         <nav id='navbar' className='scroll'>
             <a href="./index.html">
-                <InstagramIcon className='Nav-logo' fontSize='large'></InstagramIcon>
+                <InstagramIcon className='Nav-logo'></InstagramIcon>
             </a>
             <div className='Nav-search'>
                 <SearchIcon className='sicon'></SearchIcon>         

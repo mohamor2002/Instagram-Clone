@@ -7,22 +7,33 @@
         max-width: 100%;
         margin: 20px auto;
     }
-    .Post-react{
-        font-size: small;
+    .icon{
+        font-size: 30px !important;
+    }
+    .Post-pic{
+        max-width: inherit;
     }
 
 }
-@media (orientation:portrait)
+@media (max-width:900px)
 {
-  #navbar{
-    padding: 5vw;
-    width: 90vw;
-    justify-content: space-around;
-  }
-  .Nav-search{
-    width: 50vw;
-    height: 30px;
-  }
+    #navbar{
+        padding: 20px;
+        height: 20px;
+        max-width: 96vw;
+        align-items: center;
+        justify-content: left;
+    }
+    .Nav-logo{
+        position: absolute;
+        top: 25%;
+    }
+    .Nav-search{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50vw;
+        height: 30px;
+    }
     .Post-container {
         margin-left: 0;
         margin-right: 0;
@@ -33,7 +44,7 @@
     {
         margin-left:0 ;
         margin-right:0;
-        width: 96vw;
+        width: 93vw;
     }
     .sidebar {
         display: none;
@@ -42,12 +53,16 @@
     .downbar{
         display: flex;
         position: fixed;
+        height: 20px;
         width: 100%;
         align-items: center;
         justify-content: space-evenly;
         bottom: 0;
-        padding: 10px;
+        padding: 20px;
         background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    }
+    .Post-pic{
+        max-width: inherit;
     }
    
 }

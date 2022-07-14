@@ -70,8 +70,10 @@
     cursor: pointer;
 }
 
+
+
 .icon{
-    size: large;
+    font-size: 35px !important;
     margin: 10px;
     border-radius: 20%;
 }
@@ -80,13 +82,17 @@
     cursor: pointer;
 
 }
-.like-button:active{
-    font-size: 30px;
-}
+
 
 .like-account:hover{    
     text-decoration: underline;
 }
 .liked{
     color: red;
+}
+.liked:hover{
+    color: lightcoral;
+}
+.like-button{
+    display: inline;
 }
