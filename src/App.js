@@ -5,6 +5,7 @@ import ScrollBar from './components/Navbar/ScrollBar'
 import Storybar from './components/Storybar/Storybar'
 import RightBar from './components/Rightbar/RightBar';
 import Downbar from './components/Downbar/Downbar';
+import Notifs from './components/Notifs/Notifs';
 import Query from './components/Query/Query';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Navbar></Navbar>
       <div className='mt'></div>
       <Storybar></Storybar>
+      <Notifs></Notifs> 
       <Post pid="post1" Username='Mohamed Amor' Caption='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur doloremque autem explicabo. Nostrum, nihil, commodi quasi deleniti velit similique rerum provident quae tenetur corporis labore deserunt, praesentium corrupti. Nulla natus, quasi dolor repellendus nesciunt vitae ea adipisci a rem sequi animi dolores similique rerum dignissimos tenetur voluptas possimus doloribus perspiciatis?'>                     
       </Post>
       <Post pid="post2" Username='Lebron James' Caption='Lorem ipsum dolor, sit amet consectetur adipisicing elit.'>                     

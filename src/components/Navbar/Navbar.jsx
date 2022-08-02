@@ -12,6 +12,12 @@ import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlin
 
 function Navbar(props) {
     
+    var on=false
+    const Shownotif = () =>{
+        on ? (document.querySelector('.notifs').style.display='block'):(document.querySelector('.notifs').style.display='none')
+        on=!on
+    }
+
     return (
         <nav id='navbar' className='scroll'>
             <a href="./index.html">
@@ -26,7 +32,7 @@ function Navbar(props) {
                 <SendOutlinedIcon className='Message-logo' ></SendOutlinedIcon>
                 <AddCircleOutlineOutlinedIcon className='Add-logo' ></AddCircleOutlineOutlinedIcon>
                 <ExploreOutlinedIcon className='Explore-logo' ></ExploreOutlinedIcon>
-                <FavoriteBorderOutlinedIcon className='Notif-logo' ></FavoriteBorderOutlinedIcon>
+                <FavoriteBorderOutlinedIcon className='Notif-logo' onClick={Shownotif} ></FavoriteBorderOutlinedIcon>
                 <div className='Navbar-account'>
                     <img className='Navbar-pp' src={Pic} alt="" />
                 </div>
